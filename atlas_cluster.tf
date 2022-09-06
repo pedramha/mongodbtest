@@ -19,5 +19,5 @@ resource "mongodbatlas_cluster" "cluster" {
   provider_instance_size_name  = "M10"
 }
 output "connection_strings" {
-  value = mongodbatlas_cluster.cluster.connection_strings[0].standard_sr
+  value = mongodbatlas_cluster.cluster.connection_strings[0].standard_srv
 }
