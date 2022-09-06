@@ -1,5 +1,3 @@
-public_key="dxcffygx"
-private_key="ce7a49f3-6fea-402d-ad70-b8d71727c114"
 atlasprojectid="5b4747350bd66b0349eea596"
 region="US_EAST_1"
 atlas_provider_instance_size_name="M0"
