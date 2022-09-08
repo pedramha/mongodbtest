@@ -2,6 +2,10 @@ output "connection_strings" {
   value = mongodbatlas_cluster.cluster.connection_strings[0].standard_srv
 }
 
+output "connection_strings2" {
+  value = mongodbatlas_cluster.cluster.connection_strings
+}
+
 output "user1" {
   value = mongodbatlas_database_user.user.username
 }
